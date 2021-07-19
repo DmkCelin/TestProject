@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ko">
+    <head>
+        <style>
+            * {
+                border-collapse: collapse;
+                margin: 0px;
+                padding: 0px;
+                list-style: none;
+                text-decoration: none;
+                color: black;
+            }
+            .flaxable > span {
+                flex: 1;
+                background: pink;
+            }
+            div > div {
+                flex: 3;
+                background: orange;
+                border: 1px solid white;
+            }
+           
+            .flaxable {
+                display: flex;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flaxable">
+            <span>span</span>
+            <span>span</span>
+        </div>
+        <div>
+            <div>div</div>
+            <div>div</div>
+            <div>div</div>
+        </div>
+    </body>
+</html>
